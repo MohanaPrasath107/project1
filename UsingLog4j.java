@@ -7,10 +7,10 @@ public class UsingLog4j {
 	static Logger log = Logger.getLogger(UsingLog4j.class);
 	public static void main(String[] args) {
 		BasicConfigurator.configure();
-		log.info("M");
-		log.error("O");
-		log.fatal("H");
-		log.warn("A");
+		log.info("R");
+		log.error("A");
+		log.fatal("V");
+		log.warn("E");
 		log.debug("N");
 		
 		
