@@ -9,6 +9,8 @@ public class Execptions {
 		BasicConfigurator.configure();
 		int num = 10;
 		int num1 = 0;
+		
+		log.info("going to do exception");
 		try {
 			System.out.println(num/num1);
 		}
